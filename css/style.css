@@ -1,196 +1,45 @@
 /* CSS Document */
 *{
 	margin: 0;
-	padding: 0;
+	padding: 0 auto;
 }
-#wrapper{
-	width: 960px;
-	height: 1150px;
-	margin: 0 auto;
-}#header{
-	width: 960px;
-	height: 200px;
-/*	background: #D9272A;*/
-}
-img{
-	width: 100px;
-	margin-left: 440px;
-	margin-top: 25px;
-}
-h1{
-	text-align: center;
-	color: #2CA2DD;
-	margin-top: 10px;
-}
-.menu{
-	width: 960px;
-	height: 75px;
-/*	background: rgb(190,189,203);*/
-    background: linear-gradient(90deg, rgba(190,189,203,1) 26%, rgba(0,212,255,1) 65%, rgba(9,9,121,1) 100%);
-}
-.menu ul{
-	list-style: none;
-	width: 960px;
-	height: 69px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-}
-.menu ul li{
-	float: left;
-	margin-left: 85px;
-	margin-top: 25px;
-}
-.menu ul li a{
-	color: white;
-	text-decoration: none;
-}
-.menu ul li a:hover{
-	transition-duration: 0.5s;
-	color:blue;
-}
-#content{
-	width: 960px;
-	height: 669px;
-/*	background: aqua;*/
-	background-image: url(../img/33.jpg);
-}
-.banner{
-	width: 960px;
-	height: 250px;
-/*	background-image: url(../img/photo-1497213178979-08c433a00e2e.jpg);*/
+header{
+	background: url(../img/bg-masthead.jpg);
 	background-size: cover;
-	opacity: 0.9;
+	padding-top: 200px;
+	padding-bottom: 230px
 }
-.text1{
-	width: 960px;
-	height: 83px;
-	padding-top: 10px;
-/*	background: #4EFF00;*/
+.icon-hinh1{
+	font-size: 500%;
+	color: blue;
 }
-h1.text{
-	color: white;
-	font-size: 40px;
-}
-.line{
-	width: 960px;
-	height: 80px;
-/*	background: #FF0004;*/
-	position: relative;
-	text-align: center;
-	margin-top: 20px;
-}
-.line-trc,
-.line-sau{
-	position: absolute;
-  	height: 2px;
-  	background: #a9c0cb;
-  	top: 13%;
-}
-.line-trc{
-	left: 60px
-}
-.line-sau{
-	right: 60px;
-}
-span.text{
-	font-size: 17px;
-	color: white;
-}
-.border{
-	width: 960px;
-	height: 83px;
-/*	background: #731AAE;*/
-	text-align: center;
-}
-.box{
-	width: 170px;
-	height: 40px;
-	margin: 0 auto;
-}
-.border a{
-	text-decoration: none;
-}
-h3{
-	padding-top:8px;
-	width: 160px;
-	height: 30px;
-	border-radius: 30px;
-	background: #F29212;
-	color: white
-}
-h3:hover{
-	background:#FF9B42;
-	transition-duration: 0.5s;
-	opacity: 0.5;
-}
-.title{
-	width: 960px;
-	height: 419px;
-/*	background: red;*/
-}
-.we{
-	width: 960px;
-	height: 110px;
-/*	background: blue;*/
-	text-align: center;
-}
-.we h1{
-	font-size: 60px;
-	padding-top: 30px;
-	
-}
-.tex{
-	width: 960px;
-	height: 109px;
-/*	background: yellow;*/
-	text-align: center;
-}
-.tex p{
-	font-size: 20px;
-	color: #2CA2DD;
-	margin-top: 30px;
-}
-#footer{
-	width: 960px;
-	height: 281px;
-/*	background: black;*/
-	background-image: url(../img/Live-preview-for-Construction-Company-Responsive-Website_y-socials-bg.jpg);
+.showcase-img{
+	background-image: url(../img/bg-showcase-1.jpg);
+	height: 460px;
 	background-size: cover;
-	text-align: center;
-	color: white;
 }
-.tit{
-	width: 960px;
-	height: 40px;
-/*	background: red;*/
+.showcase-text{
+	padding: 100px;
+}
+.hinh2{
+	border-radius: 50%;
+	max-width: 50%;
+}
+.text-hinh2{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.footer1{
+	background-image: url(../img/bg-masthead.jpg); 
+	background-size: cover;
 	padding-top: 40px;
-	font-size: 20px;
+	padding-bottom: 100px;
 }
-.par{
-	width: 960px;
-	height: 40px;
-/*	background: aqua;*/
-	padding-top: 20px;
-	font-size: 20px;
+.footer2{
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
-.icon{
-	width: 960px;
-	height: 140px;
-/*	background: gray;*/
-}
-.icon ul li{
-	float: left;
-	list-style: none;
-	margin-left: 120px;
-	margin-top: 30px;
-	font-size: 60px;
-	transition: 0.5;
-}
-.icon ul li a{
-	color: white;
-	transition: all 0.5;
-}
-.icon ul li a :hover{
-	transition-duration: 0.5;
-	color: #64ACF7;
+.social{
+	font-size: 40px;
+	text-align: right!important;
 }
